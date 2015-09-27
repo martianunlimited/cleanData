@@ -63,10 +63,8 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
 
-These signals were used to estimate variables of the feature vector for each pattern:  
-- '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions
-- suffix -mean() is used to denote the mean values 
-- suffix -std() is used to denote the standard deviation of the measurement 
+These signals were used to estimate variables of the feature vector for each pattern: 
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions, suffix -mean() is used to denote the mean values, and suffix -std() is used to denote the standard deviation of the measurement:
 
 * tBodyAcc-XYZ
 * tGravityAcc-XYZ
