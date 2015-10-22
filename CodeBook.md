@@ -25,7 +25,7 @@ These signals were used to estimate variables of the feature vector for each pat
 * fBodyGyroMag
 * fBodyGyroJerkMag
 
-## Transformation done to the data 
+## Transformation to the data 
 
 We load the data and responses, and subject from both the training data (x_train.txt, y_train.txt, subject_train.txt) 
 and the test data (x_test.txt, y_test.txt, subject_test.txt) respectively.
